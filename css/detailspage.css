@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1260px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+.row {
+  padding-right: -15px;
+  padding-left: -15px;
+}
+.section-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-heading p {
+  font-family: "Fira Sans Condensed", sans-serif;
+  text-transform: capitalize;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 66px;
+  color: #000000;
+}
+.heading-underline {
+  height: 3px;
+  width: 70px;
+  background-color: #ff2d6e;
+}
+
+/* Detail-page-main Detail-page-main Detail-page-main
+Detail-page-main Detail-page-main Detail-page-main
+Detail-page-main Detail-page-main Detail-page-main
+Detail-page-main Detail-page-main Detail-page-main */
+
+#sproduct-main {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.sproduct-image-col {
+  width: 40%;
+  padding: 0 15px;
+  float: left;
+  margin-top: 30px;
+}
+.sproduct-text-col {
+  width: 60%;
+  padding: 0 15px;
+  float: left;
+  margin-top: 30px;
+}
+
+.sproduct-image {
+  width: 100%;
+  display: inline-block;
+}
+.sproduct-image img {
+  width: 100%;
+}
+.sproduct-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.small-image-group {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.small-image-col {
+  width: 24%;
+
+  cursor: pointer;
+}
+.small-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.sproduct-text h6{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 25px;
+}
+.sproduct-text h5{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+.sproduct-text h2{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 30px;
+  color: red;
+}
+.sproduct-text .shoes-size{
+  font-family: "Fira Sans Condensed", sans-serif;
+  width: 20%;
+  border: 1px solid rgb(192, 190, 190);
+}
+.sproduct-text label{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.sproduct-text input{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  border: 1px solid rgb(192, 190, 190);
+width: 5%;
+text-align: center;
+
+}
+.sproduct-text h4{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  
+}
+.sproduct-text p{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+  
+}
+.sproduct-text .pincode{
+  width: 25%;
+  padding-bottom: 5px;
+}
+.sproduct-text .pincode-info{
+  font-family: "Fira Sans Condensed", sans-serif;
+
+  font-size: 10px;
+}
+.sproduct-text ul li{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 15px;
+   margin-top: 10px;
+   font-weight: 300;
+}
+.sproduct-text ul li h6{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 15px;
+
+}
+.sproduct-text ul li p{
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 11px;
+  font-weight: 300;
+
+}
+.ATI li{
+  width: 60%;
+}
+.sproduct-text .pincode::placeholder{
+  color: black;
+  font-size: 10px;
+}
+.sproduct-text h3{
+  font-size: 15px;
+  font-family: "Fira Sans Condensed", sans-serif;
+
+}
+.sproduct-text h3 span{
+  font-size: 15px;
+  font-family: "Fira Sans Condensed", sans-serif;
+  color: red;
+}
+
+
+/* Button */
+.CartBtn {
+  width: 140px;
+  height: 40px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgb(255, 208, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  overflow: hidden;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.103);
+  position: relative;
+}
+
+.IconContainer {
+  position: absolute;
+  left: -50px;
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 2;
+  transition-duration: 0.5s;
+}
+
+.icon {
+  border-radius: 1px;
+}
+
+.text {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(17, 17, 17);
+  z-index: 1;
+  transition-duration: 0.5s;
+  font-size: 1.04em;
+  font-weight: 600;
+  font-family: "Fira Sans Condensed", sans-serif;
+
+}
+
+.CartBtn:hover .IconContainer {
+  transform: translateX(58px);
+  border-radius: 40px;
+  transition-duration: 0.5s;
+}
+
+.CartBtn:hover .text {
+  transform: translate(10px, 0px);
+  transition-duration: 0.5s;
+}
+
+.CartBtn:active {
+  transform: scale(0.95);
+  transition-duration: 0.5s;
+}
+/* Button */
